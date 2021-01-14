@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MY-TWITTER-HEADER</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+            @font-face {
+                font-family:'Exo 2', sans-serif;
+                src: url('Monoton-Regular.ott');
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            :root {
+                --gradient-bg: linear-gradient(90deg, black 50%, yellow 50%);
+                --gradient-text: linear-gradient(-90deg, black 50%, yellow 50%);
+            }
+            body {
+                width: 100vw;
+                height: 100vh;
+                background: #f3f3f3;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+
+            .bg {
+                background: var(--gradient-bg);
+                width: 50%;
+                height: 35%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+
+            h1 {
+                font-family: 'Exo 2', sans-serif;
+                font-size: 5rem;
+                text-align: center;
+                background-image: var(--gradient-text);
+                -moz-text-fill-color: transparent;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -moz-background-clip: text;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bg">
+            <h1>TECH-QUEEN</h1>
+        </div>
+    </body>
+</html>
